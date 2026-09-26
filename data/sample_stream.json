@@ -1,0 +1,175 @@
+{
+  "stream_id": "SIM-RF-2026-001",
+  "description": "Mixed pass/fail tactical SDR packet stream for ICD verification demo",
+  "icd_revision": "1.0",
+  "frames": [
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "DATA",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": null,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 28.0,
+        "rx_latency_ms": 8.5,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 356720683,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    },
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "KEY_EXCHANGE",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": 120.0,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 22.0,
+        "rx_latency_ms": 12.0,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 2451090479,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    },
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "DATA",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": null,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 5.0,
+        "rx_latency_ms": 12.0,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 356720683,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    },
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "DATA",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": null,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 18.0,
+        "rx_latency_ms": 12.0,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 3938246612,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    },
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "KEY_EXCHANGE",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": 350.0,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 30.0,
+        "rx_latency_ms": 12.0,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 2451090479,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    },
+    {
+      "preamble": {
+        "sync_word_hex": "aa55aa55",
+        "frame_version": 1,
+        "frame_type": "DATA",
+        "source_node_id": "NODE-ALPHA-01",
+        "destination_node_id": "NODE-BRAVO-02"
+      },
+      "crypto": {
+        "crypto_mode": "AES-256-GCM",
+        "key_id": "TEK-7F3A",
+        "iv_hex": "00112233445566778899aabbccddeeff",
+        "handshake_elapsed_ms": null,
+        "sequence_number": 42
+      },
+      "payload": {
+        "payload_hex": "deadbeef",
+        "payload_type": "MISSION_DATA"
+      },
+      "rf": {
+        "carrier_freq_mhz": 225.0,
+        "snr_db": 20.0,
+        "rx_latency_ms": 75.0,
+        "rssi_dbm": -65.0
+      },
+      "crc32": 356720683,
+      "timestamp_utc": "2026-09-26T12:00:00Z"
+    }
+  ]
+}
